@@ -37,3 +37,20 @@ echo LSH varibale a_lsh - ${a_lsh}
 echo Frist value - $1
 echo second value - $2
 echo All values - $*
+
+# variable substitution
+# syntax: var=$(command)
+
+Date=$(date)
+
+
+# Arithmetic substitution
+
+# syntax: var=$((expression))
+
+ADD=$((10+50+20))
+
+echo Added Value - $ADD
+
+# variable name characters
+# a-z , A-Z , 0-9, _
