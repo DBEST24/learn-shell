@@ -10,3 +10,16 @@ echo hello
 
 echo value of x is - $x
 
+
+# Input from User
+# LSH script RHS
+# on cli I send the variable using the following command
+
+# export a_env=1000
+
+echo Env Variable - a_env - S{a_env}
+
+# LSH  - before executing the script
+# on cli
+
+echo LSH varibale a_lsh - ${a_lsh}
