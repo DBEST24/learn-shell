@@ -15,3 +15,16 @@ SAMPLE(){
 source command.sh
 demo
 
+# variable declared out side of functions can be accessible inside the functions and vice-versa.
+
+#       Before execution
+#   LHS function RHS
+
+function abc1(){
+  echo value of a - $a
+
+}
+
+a=10
+abc1
+
