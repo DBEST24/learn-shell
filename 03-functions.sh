@@ -10,3 +10,8 @@
 SAMPLE(){
   echo sample functio
 }
+
+
+source command.sh
+demo
+
